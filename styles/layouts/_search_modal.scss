@@ -8,7 +8,11 @@
   padding: 12px 0;
   background-color: $white;
 
-  &-from {
+  &-header {
+    margin-bottom: 20px;
+  }
+
+  &-form {
     @include flexbox(between);
 
     .input-group {
